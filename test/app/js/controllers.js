@@ -145,7 +145,7 @@ authCtrl.config(function ($httpProvider) {
   $httpProvider.interceptors.push('authInterceptor');
 });
 
-var endAuth = function($window, $location) {
+var endAuth = function ($window, $location) {
 	return function() {
 		$location.path("/")
 		delete $window.sessionStorage.token;

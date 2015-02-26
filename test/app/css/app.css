@@ -9,10 +9,3 @@ ul li{
 	width: 220px;
 	text-align: center;
 }
-
-.hide{
-	display: none;
-}
-.show{
-	display: block;
-}

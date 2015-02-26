@@ -1,5 +1,3 @@
-// var crypto = require('crypto');
-// console.log(crypto)
 var mongoose = require('../libs/mongoose'),
 	Schema = mongoose.Schema;
 
@@ -18,5 +16,5 @@ var User = new Schema({
 		required: true
 	}
 })
-// console.log(schema)
+
 exports.User = mongoose.model('User', User)
