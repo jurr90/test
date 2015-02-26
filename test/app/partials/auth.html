@@ -1,0 +1,11 @@
+<div class="row w-title-h">
+    <h1 class="title-h">{{headPage}}</h1>
+    <hr>
+</div>
+<a href="#/registr">{{registr}}</a>
+<form ng-submit="submit()">
+    <input ng-model="moderator.username" type="text" placeholder="Username" />
+    <input ng-model="moderator.password" type="password" name="pass" placeholder="Password" />
+    <input type="submit" value="{{valueButton}}" class="btn btn-success" />
+</form>
+<span>{{errorMessage}}</span>

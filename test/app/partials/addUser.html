@@ -1,0 +1,17 @@
+<div class="row w-title-h">
+    <h1 class="title-h">Добавить/изменить пользователя</h1>
+    <hr>
+</div>
+
+<form ng-submit="submit()">
+	<label><input type="text" ng-model="user.name" value="{{user.name}}">Имя</label>
+	<br>
+	<label><input type="text" ng-model="user.age" value="{{user.age}}">Возраст</label>
+	<br>
+	<label><input type="email" ng-model="user.email" value="{{user.email}}">@Mail</label>
+	<br>
+	<input type="submit" class="btn btn-success" value="Сохранить">
+</form>
+
+<hr>
+<button ng-click="endAuth()" class="btn btn-inverse">Выйти</button>

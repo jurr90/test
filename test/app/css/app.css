@@ -1,0 +1,18 @@
+/* app css stylesheet */
+
+body {
+  padding: 20px;
+}
+
+ul li{
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
